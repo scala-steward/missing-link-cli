@@ -25,7 +25,7 @@ jobs:
           ${{ runner.OS }}-coursier-cache-${{ hashFiles('**/*.sbt') }}-
           ${{ runner.OS }}-coursier-cache-
 
-    - uses: olafurpg/setup-scala@v10
+    - uses: olafurpg/setup-scala@v12
       with:
         java-version: adopt@1.8.0-232
 
@@ -51,7 +51,7 @@ jobs:
             ${{ runner.OS }}-coursier-cache-${{ hashFiles('**/*.sbt') }}-
             ${{ runner.OS }}-coursier-cache-
 
-      - uses: olafurpg/setup-scala@v10
+      - uses: olafurpg/setup-scala@v12
 
       - uses: olafurpg/setup-gpg@v3
 
