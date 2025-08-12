@@ -17,5 +17,5 @@ enablePlugins(PackPlugin)
 
 libraryDependencies ++= Seq(
   "com.spotify" % "missinglink-core" % "0.2.11",
-  "com.github.alexarchambault" %% "case-app" % "2.0.6"
+  "com.github.alexarchambault" %% "case-app" % "2.1.0"
 )
